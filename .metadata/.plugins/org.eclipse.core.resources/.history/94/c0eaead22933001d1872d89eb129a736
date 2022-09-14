@@ -1,0 +1,12 @@
+package chap12;
+
+public class DateEx2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date now = new Date();
+		System.out.println(now.getTime());
+		System.out.println(System.currentTimeMillis());
+	}
+
+}
